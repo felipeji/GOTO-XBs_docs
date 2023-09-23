@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Databases Description &#8212; GOTO-XBs  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b3523f8e" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=b3ba4146"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Quick Start Guide" href="quick_start.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="databases-description">
+<h1>Databases Description<a class="headerlink" href="#databases-description" title="Permalink to this heading">¶</a></h1>
+<p>GOTO-XBs utilizes an SQLite database with two primary tables:</p>
+<section id="source-table">
+<h2>Source Table<a class="headerlink" href="#source-table" title="Permalink to this heading">¶</a></h2>
+<p>The <cite>Source</cite> table contains fundamental information about the X-ray binaries (XBs) being tracked. It is structured with the following columns:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">source_id</span></code>: a unique identifier for each source.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code>: the name of the source.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pretty_name</span></code>: a human-readable name for the source.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ra</span></code>: Right Ascension (RA) coordinate of the source.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">dec</span></code>: Declination (Dec) coordinate of the source.</p></li>
+</ul>
+</section>
+<section id="photometry-table">
+<h2>Photometry Table<a class="headerlink" href="#photometry-table" title="Permalink to this heading">¶</a></h2>
+<p>The <cite>Photometry</cite> table stores photometric data obtained from the GOTO database. It includes the following columns:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: a unique identifier linking the data to a specific source. This field serves as a foreign key referencing the <cite>source_id</cite> in the <cite>Source</cite> table.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">date</span></code>: date of the observation.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mjd</span></code>: Modified Julian Date (MJD) of the observation.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mag</span></code>: magnitude.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mag_err</span></code>: error associated with the magnitude.</p></li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">GOTO-XBs</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quick_start.html">Quick Start Guide</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Databases Description</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#source-table">Source Table</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#photometry-table">Photometry Table</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="quick_start.html" title="previous chapter">Quick Start Guide</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Felipe Jiménez-Ibarra.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/databases.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
