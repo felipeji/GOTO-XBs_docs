@@ -1,0 +1,13 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Contents}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Requirements}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Quick Start Guide}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Downloading GOTO\sphinxhyphen {}XBs Repository}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}GOTO\sphinxhyphen {}XBs Environment}{3}{subsection.1.2.2}%
+\contentsline {subsubsection}{Using Conda}{3}{subsubsection*.3}%
+\contentsline {subsubsection}{Using virtualenv}{4}{subsubsection*.4}%
+\contentsline {subsection}{\numberline {1.2.3}Settings Files}{4}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Databases Description}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Source Table}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Photometry Table}{5}{subsection.1.3.2}%
+\contentsline {chapter}{\numberline {2}Indices and tables}{7}{chapter.2}%
