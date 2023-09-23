@@ -4,7 +4,7 @@ Requirements
 GOTO-XBs is built on the Django framework, and the requirements necessary to use it are:
 
 - **python 3.8.x**
-- **conda** or **virtualenv + virtualenvwrapper**
+- **conda** or **virtualenv**
 
 
 
