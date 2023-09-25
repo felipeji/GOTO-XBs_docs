@@ -1,7 +1,7 @@
 Databases Description
 =====================
 
-GOTO-XBs utilizes an SQLite database with two primary tables:
+GOTO-XBs uses an SQLite database with two primary tables:
 
 
 Source Table

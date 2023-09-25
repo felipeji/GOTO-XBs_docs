@@ -10,7 +10,7 @@ GOTO-XBs is a web platform for follow-up of X-ray binaries (XBs) within GOTO dat
 
 The platform also features a range of analysis tools for working with light curves in real-time. These tools include data filtering, phase folding,  smoothing within user-defined time windows, periodogram analysis, plot generation, and more.
 
-Users can also download the data, both raw or previously filtered or smoothed light curves.
+Users can download the data, both raw or previously filtered or/and smoothed light curves.
 
 
 The platform is built on a Django framework. So far it consists of two applications:

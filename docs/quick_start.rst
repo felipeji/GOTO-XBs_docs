@@ -5,7 +5,7 @@ Quick Start Guide
 Downloading GOTO-XBs Repository
 -------------------------------
 
-The source code for GOTO-XBS is hosted on the GOTO GitHub page. To developing GOTO-XBs locally, you can clone the repository in : https://github.com/GOTO-OBS/goto-xbs.git
+The source code for GOTO-XBs is hosted on the GOTO GitHub page. To developing GOTO-XBs locally, you can clone the repository in : https://github.com/GOTO-OBS/goto-xbs.git
 
 
 
